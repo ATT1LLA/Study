@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EABF0691BB3EED10000464F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF0681BB3EED10000464F /* AppDelegate.m */; };
+		1EABF06B1BB3EED10000464F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF06A1BB3EED10000464F /* main.m */; };
+		1EABF06E1BB3EED10000464F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF06D1BB3EED10000464F /* ViewController.m */; };
+		1EABF0701BB3EED20000464F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EABF06F1BB3EED20000464F /* Images.xcassets */; };
+		1EABF0731BB3EED20000464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EABF0711BB3EED20000464F /* Main.storyboard */; };
+		1EABF07F1BB3EED20000464F /* FractalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF07E1BB3EED20000464F /* FractalsTests.m */; };
+		1EABF08A1BB3FAAB0000464F /* fract.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF0891BB3FAAB0000464F /* fract.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EABF0791BB3EED20000464F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EABF05A1BB3EED10000464F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EABF0611BB3EED10000464F;
+			remoteInfo = Fractals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EABF0621BB3EED10000464F /* Fractals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fractals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EABF0661BB3EED10000464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EABF0671BB3EED10000464F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EABF0681BB3EED10000464F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EABF06A1BB3EED10000464F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EABF06C1BB3EED10000464F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EABF06D1BB3EED10000464F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EABF06F1BB3EED20000464F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EABF0721BB3EED20000464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EABF0781BB3EED20000464F /* FractalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EABF07D1BB3EED20000464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EABF07E1BB3EED20000464F /* FractalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractalsTests.m; sourceTree = "<group>"; };
+		1EABF0881BB3FAAB0000464F /* fract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fract.h; sourceTree = "<group>"; };
+		1EABF0891BB3FAAB0000464F /* fract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fract.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EABF05F1BB3EED10000464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EABF0751BB3EED20000464F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EABF0591BB3EED10000464F = {
+			isa = PBXGroup;
+			children = (
+				1EABF0641BB3EED10000464F /* Fractals */,
+				1EABF07B1BB3EED20000464F /* FractalsTests */,
+				1EABF0631BB3EED10000464F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EABF0631BB3EED10000464F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF0621BB3EED10000464F /* Fractals.app */,
+				1EABF0781BB3EED20000464F /* FractalsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EABF0641BB3EED10000464F /* Fractals */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF0671BB3EED10000464F /* AppDelegate.h */,
+				1EABF0681BB3EED10000464F /* AppDelegate.m */,
+				1EABF06C1BB3EED10000464F /* ViewController.h */,
+				1EABF06D1BB3EED10000464F /* ViewController.m */,
+				1EABF06F1BB3EED20000464F /* Images.xcassets */,
+				1EABF0711BB3EED20000464F /* Main.storyboard */,
+				1EABF0881BB3FAAB0000464F /* fract.h */,
+				1EABF0891BB3FAAB0000464F /* fract.m */,
+				1EABF0651BB3EED10000464F /* Supporting Files */,
+			);
+			path = Fractals;
+			sourceTree = "<group>";
+		};
+		1EABF0651BB3EED10000464F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF0661BB3EED10000464F /* Info.plist */,
+				1EABF06A1BB3EED10000464F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EABF07B1BB3EED20000464F /* FractalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF07E1BB3EED20000464F /* FractalsTests.m */,
+				1EABF07C1BB3EED20000464F /* Supporting Files */,
+			);
+			path = FractalsTests;
+			sourceTree = "<group>";
+		};
+		1EABF07C1BB3EED20000464F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF07D1BB3EED20000464F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EABF0611BB3EED10000464F /* Fractals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EABF0821BB3EED20000464F /* Build configuration list for PBXNativeTarget "Fractals" */;
+			buildPhases = (
+				1EABF05E1BB3EED10000464F /* Sources */,
+				1EABF05F1BB3EED10000464F /* Frameworks */,
+				1EABF0601BB3EED10000464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fractals;
+			productName = Fractals;
+			productReference = 1EABF0621BB3EED10000464F /* Fractals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EABF0771BB3EED20000464F /* FractalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EABF0851BB3EED20000464F /* Build configuration list for PBXNativeTarget "FractalsTests" */;
+			buildPhases = (
+				1EABF0741BB3EED20000464F /* Sources */,
+				1EABF0751BB3EED20000464F /* Frameworks */,
+				1EABF0761BB3EED20000464F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EABF07A1BB3EED20000464F /* PBXTargetDependency */,
+			);
+			name = FractalsTests;
+			productName = FractalsTests;
+			productReference = 1EABF0781BB3EED20000464F /* FractalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EABF05A1BB3EED10000464F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Тастеков Адиль Азатович";
+				TargetAttributes = {
+					1EABF0611BB3EED10000464F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1EABF0771BB3EED20000464F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1EABF0611BB3EED10000464F;
+					};
+				};
+			};
+			buildConfigurationList = 1EABF05D1BB3EED10000464F /* Build configuration list for PBXProject "Fractals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EABF0591BB3EED10000464F;
+			productRefGroup = 1EABF0631BB3EED10000464F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EABF0611BB3EED10000464F /* Fractals */,
+				1EABF0771BB3EED20000464F /* FractalsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EABF0601BB3EED10000464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABF0701BB3EED20000464F /* Images.xcassets in Resources */,
+				1EABF0731BB3EED20000464F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EABF0761BB3EED20000464F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EABF05E1BB3EED10000464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABF06E1BB3EED10000464F /* ViewController.m in Sources */,
+				1EABF06B1BB3EED10000464F /* main.m in Sources */,
+				1EABF08A1BB3FAAB0000464F /* fract.m in Sources */,
+				1EABF0691BB3EED10000464F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EABF0741BB3EED20000464F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABF07F1BB3EED20000464F /* FractalsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EABF07A1BB3EED20000464F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EABF0611BB3EED10000464F /* Fractals */;
+			targetProxy = 1EABF0791BB3EED20000464F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EABF0711BB3EED20000464F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EABF0721BB3EED20000464F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EABF0801BB3EED20000464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1EABF0811BB3EED20000464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1EABF0831BB3EED20000464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fractals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EABF0841BB3EED20000464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fractals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EABF0861BB3EED20000464F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FractalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractals.app/Contents/MacOS/Fractals";
+			};
+			name = Debug;
+		};
+		1EABF0871BB3EED20000464F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FractalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractals.app/Contents/MacOS/Fractals";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EABF05D1BB3EED10000464F /* Build configuration list for PBXProject "Fractals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EABF0801BB3EED20000464F /* Debug */,
+				1EABF0811BB3EED20000464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EABF0821BB3EED20000464F /* Build configuration list for PBXNativeTarget "Fractals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EABF0831BB3EED20000464F /* Debug */,
+				1EABF0841BB3EED20000464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EABF0851BB3EED20000464F /* Build configuration list for PBXNativeTarget "FractalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EABF0861BB3EED20000464F /* Debug */,
+				1EABF0871BB3EED20000464F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EABF05A1BB3EED10000464F /* Project object */;
+}
